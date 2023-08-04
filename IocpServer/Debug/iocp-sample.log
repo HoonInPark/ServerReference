@@ -1,0 +1,18 @@
+﻿  DBConnector.cpp
+  MainIocp.cpp
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\CommonClass.h(103,23): warning C4251: 'cCharactersInfo::players': class 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const int,cCharacter>>>'에서는 class 'cCharactersInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\CommonClass.h(103,2): message : 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const int,cCharacter>>>' 선언을 참조하십시오.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(129,56): warning C4474: 'printf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(129,56): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(235,7): warning C4101: 'nResult' :참조되지 않은 지역 변수입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(238,8): warning C4101: 'sendBytes' :참조되지 않은 지역 변수입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(315,11): warning C4477: 'printf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(315,11): warning C4477: 'printf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'std::string'입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(336,11): warning C4477: 'printf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(336,11): warning C4477: 'printf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'std::string'입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(475,11): warning C4477: 'printf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+  main.cpp
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\CommonClass.h(103,23): warning C4251: 'cCharactersInfo::players': class 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const int,cCharacter>>>'에서는 class 'cCharactersInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\CommonClass.h(103,2): message : 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const int,cCharacter>>>' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+LINK : fatal error LNK1104: 'libmysql.lib' 파일을 열 수 없습니다.

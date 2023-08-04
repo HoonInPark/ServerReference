@@ -1,0 +1,21 @@
+﻿  stdafx.cpp
+  CommonClass.cpp
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.h(103,23): warning C4251: 'cCharactersInfo::players': class 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const int,cCharacter>>>'에서는 class 'cCharactersInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.h(103,2): message : 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const int,cCharacter>>>' 선언을 참조하십시오.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.cpp(4,13): warning C4273: 'cCharacter::cCharacter': dll 연결이 일치하지 않습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.h(36,2): message : '{ctor}'의 이전 정의를 참조하십시오.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.cpp(8,14): warning C4273: 'cCharacter::~cCharacter': dll 연결이 일치하지 않습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.h(37,3): message : '{dtor}'의 이전 정의를 참조하십시오.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.cpp(12,18): warning C4273: 'cCharactersInfo::cCharactersInfo': dll 연결이 일치하지 않습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.h(100,2): message : '{ctor}'의 이전 정의를 참조하십시오.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.cpp(16,19): warning C4273: 'cCharactersInfo::~cCharactersInfo': dll 연결이 일치하지 않습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.h(101,3): message : '{dtor}'의 이전 정의를 참조하십시오.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.cpp(20,14): warning C4273: 'CommonClass::CommonClass': dll 연결이 일치하지 않습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.h(139,2): message : '{ctor}'의 이전 정의를 참조하십시오.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.cpp(25,15): warning C4273: 'CommonClass::~CommonClass': dll 연결이 일치하지 않습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\PacketDll\CommonClass.h(140,3): message : '{dtor}'의 이전 정의를 참조하십시오.
+  dllmain.cpp
+  PacketDll.cpp
+  코드를 생성하고 있습니다...
+     D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\Debug\PacketDll.lib 라이브러리 및 D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\Debug\PacketDll.exp 개체를 생성하고 있습니다.
+  PacketDll.vcxproj -> D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\Debug\PacketDll.dll

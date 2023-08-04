@@ -1,0 +1,24 @@
+﻿  MainIocp.cpp
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\CommonClass.h(104,23): warning C4251: 'cCharactersInfo::players': class 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const int,cCharacter>>>'에서는 class 'cCharactersInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\CommonClass.h(104,2): message : 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const int,cCharacter>>>' 선언을 참조하십시오.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(189,56): warning C4474: 'printf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(189,56): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(395,13): warning C4477: 'printf_s' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'SOCKET'입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(395,13): message : 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(395,13): message : 서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(395,13): message : 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(406,13): warning C4477: 'printf_s' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'SOCKET'입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(406,13): message : 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(406,13): message : 서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(406,13): message : 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(350,7): warning C4101: 'nResult' :참조되지 않은 지역 변수입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(353,8): warning C4101: 'sendBytes' :참조되지 않은 지역 변수입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(517,50): warning C4267: '=': 'size_t'에서 'ULONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(544,50): warning C4267: '=': 'size_t'에서 'ULONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(608,11): warning C4477: 'printf_s' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned __int64'입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(608,11): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(668,11): warning C4477: 'printf_s' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned __int64'입니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(668,11): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(777,50): warning C4267: '=': 'size_t'에서 'ULONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\IocpServer\MainIocp.cpp(794,50): warning C4267: '=': 'size_t'에서 'ULONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  iocp-sample.vcxproj -> D:\Lecture\_24_UnrealServerClient\Unreal_MetaServer_Ex\Unreal_IOCP_Server\x64\Debug\iocp-server.exe
